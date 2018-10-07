@@ -1815,13 +1815,13 @@
 #define Z2_DIR_PIN         34
 #define Z2_ENABLE_PIN      30
 
-#define E0_STEP_PIN        36 // 26
-#define E0_DIR_PIN         34 // 28
-#define E0_ENABLE_PIN      30 // 24
+#define E0_STEP_PIN        26 //36
+#define E0_DIR_PIN         28 //34
+#define E0_ENABLE_PIN      24 //30
 
-#define E1_STEP_PIN        26 //36
-#define E1_DIR_PIN         28 //34
-#define E1_ENABLE_PIN      24 //30
+#define E1_STEP_PIN        36 // 26
+#define E1_DIR_PIN         34 // 28
+#define E1_ENABLE_PIN      30 // 24
 
 #define SDPOWER            -1
 #define SDSS               53
@@ -1837,11 +1837,11 @@
 #define KILL_PIN           -1
 #endif
 
-#define HEATER_0_PIN       9   // EXTRUDER 1
-#define HEATER_1_PIN       12    // EXTRUDER 2 (FAN On Sprinter)
+#define HEATER_0_PIN       12  // EXTRUDER 1
+#define HEATER_1_PIN       9   // EXTRUDER 2 (FAN On Sprinter)
 #define HEATER_2_PIN       -1
-#define TEMP_0_PIN         14   // ANALOG NUMBERING
-#define TEMP_1_PIN         13   // ANALOG NUMBERING
+#define TEMP_0_PIN         13   // ANALOG NUMBERING
+#define TEMP_1_PIN         14   // ANALOG NUMBERING
 #define TEMP_2_PIN         -1   // ANALOG NUMBERING
 #define HEATER_BED_PIN     10   // BED
 #define TEMP_BED_PIN       15   // ANALOG NUMBERING
